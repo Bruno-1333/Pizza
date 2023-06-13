@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titre" />
+
+    <TextView
+        android:id="@+id/txtRegle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ingredient1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient1" />
+
+        <CheckBox
+            android:id="@+id/ingredient2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient2" />
+
+        <CheckBox
+            android:id="@+id/ingredient3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ingredient4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient4" />
+
+        <CheckBox
+            android:id="@+id/ingredient5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient5" />
+
+        <CheckBox
+            android:id="@+id/ingredient6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredient6" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioP" />
+
+        <RadioButton
+            android:id="@+id/radioM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioM" />
+
+        <RadioButton
+            android:id="@+id/radioL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioL" />
+
+        <RadioButton
+            android:id="@+id/radioXL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioXL" />
+
+        <RadioButton
+            android:id="@+id/radioXXL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radioXXL" />
+
+
+
+
+
+
+
+
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/listePizza"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:entries="@array/listePizza" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAjouter" />
+
+    <Button
+        android:id="@+id/btnVoirPanier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVoirPanier" />
+</LinearLayout>

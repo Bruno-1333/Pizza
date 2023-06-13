@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pizza</string>
+
+    <string name="titre">PIZZA CEGEP Outaouais</string>
+    <string name="regle">Choisissez votre pizza: 3 articles dans le panier \n Ingréedients: </string>
+
+    <string name="ingredient1">Ananas</string>
+    <string name="ingredient2">Bacon</string>
+    <string name="ingredient3">Basilic</string>
+    <string name="ingredient4">Champignon</string>
+    <string name="ingredient5">Fromage</string>
+    <string name="ingredient6">Jambon</string>
+
+    <string name="radioP">P</string>
+    <string name="radioM">M</string>
+    <string name="radioL">L</string>
+    <string name="radioXL">XL</string>
+    <string name="radioXXL">XXL</string>
+
+    <string-array name="listePizza">
+        <item>Pizza Napolitaine</item>
+        <item>Pizza 6 Fromage</item>
+        <item>Pizza Bacon</item>
+        <item>Pizza Sicilienne</item>
+        <item>Pizza Peperoni</item>
+        <item>Pizza Chocolate</item>
+    </string-array>
+
+    <string name="btnAjouter">AJOUTER</string>
+    <string name="btnVoirPanier">VOIR PANIER</string>
+
+
+
+
+</resources>
