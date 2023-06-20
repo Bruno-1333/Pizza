@@ -26,9 +26,13 @@
         <item>Pizza Chocolate</item>
     </string-array>
 
+    <string name="recapitulatif">Récapitulatif pizza en cours</string>
+
     <string name="btnAjouter">AJOUTER</string>
     <string name="btnVoirPanier">VOIR PANIER</string>
 
+    <string name ="nbArticle">Nombre de article dans le panier: </string>
+    <string name ="totalCommande">Total de la Commande: </string>
 
 
 
