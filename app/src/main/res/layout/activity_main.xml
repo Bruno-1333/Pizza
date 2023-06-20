@@ -96,6 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="actionRadio"
             android:text="@string/radioM" />
 
         <RadioButton
@@ -103,6 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="actionRadio"
             android:text="@string/radioL" />
 
         <RadioButton
@@ -110,6 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="actionRadio"
             android:text="@string/radioXL" />
 
         <RadioButton
@@ -117,6 +120,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="actionRadio"
             android:text="@string/radioXXL" />
 
 
@@ -147,10 +151,10 @@
             android:layout_height="133dp" />
 
         <Button
-        android:id="@+id/btnAjouterPanier"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btnAjouter" />
+            android:id="@+id/btnAjouterPanier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAjouter" />
 
     <Button
         android:id="@+id/btnVoirPanier"

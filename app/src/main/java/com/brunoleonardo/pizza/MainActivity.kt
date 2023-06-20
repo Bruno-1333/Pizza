@@ -84,10 +84,32 @@ class MainActivity : AppCompatActivity() {
             panier.ajouterPizza(pizzaCourante)
             pizzaCourante = Pizza("", "", ArrayList<String>())
             Toast.makeText(this, "Pizza ajoutée au panier", Toast.LENGTH_SHORT).show()
+            //vider les ingredients
+            binding.ingredient1.isChecked = false
+            binding.ingredient2.isChecked = false
+            binding.ingredient3.isChecked = false
+            binding.ingredient4.isChecked = false
+            binding.ingredient5.isChecked = false
+            binding.ingredient6.isChecked = false
+            //vider le type
+            binding.listePizza.clearChoices()
+            //vider la taille
+            binding.radioP.isChecked = false
+            binding.radioM.isChecked = false
+            binding.radioL.isChecked = false
+            binding.radioXL.isChecked = false
+            binding.radioXXL.isChecked = false
+
+            //vider le recap
+            binding.recap.text = pizzaCourante.toString()
+
+            //vider le type
+            binding.listePizza.clearChoices()
+
         }
 
         binding.btnVoirPanier.setOnClickListener {
-            var intent = Intent(this, Panier::class.java)
+            var intent = Intent(this, PannierActivity::class.java)
             intent.putExtra("panier", panier)
             startActivity(intent)
         }
@@ -95,6 +117,7 @@ class MainActivity : AppCompatActivity() {
 
     fun actionRadio(view: View) {
         pizzaCourante.taille = (view as RadioButton).text.toString()
+
 
     }
 }

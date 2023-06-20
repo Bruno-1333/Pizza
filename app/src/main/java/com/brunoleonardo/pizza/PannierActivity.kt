@@ -22,5 +22,6 @@ class PannierActivity : AppCompatActivity() {
 
         binding.nbarticle.text = panier.nombreArticles().toString()
         binding.total.text = panier.TotalCommande().toString()
+
     }
 }
